@@ -1191,4 +1191,80 @@ footer a:hover {
   .pdf-container {
     height: 350px; /* Menyesuaikan layar ponsel */
   }
+<<<<<<< Updated upstream
+=======
+}
+
+/* ==========================================================================
+   BOOTSTRAP INTEGRATION (PEMELENGKAP)
+   Bootstrap dimuat lebih dahulu; aturan berikut menjaga tampilan asli.
+   ========================================================================== */
+.project-table-heading {
+  margin-top: 4rem;
+}
+
+/* Bootstrap .form-control/.form-select mengikuti identitas custom portfolio. */
+.form-group .form-control,
+.form-group .form-select {
+  min-height: 48px;
+}
+
+/* Bootstrap utility .btn tetap mewarisi visual custom dari class btn-pink/btn-outline. */
+.btn-pink,
+.btn-outline,
+.btn-doc-link {
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* =========================================
+   BACKGROUND VIDEO
+   ========================================= */
+
+.video-background {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -10;
+  pointer-events: none;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Lapisan transparan di atas video */
+.video-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -9;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.88),
+      rgba(255, 240, 246, 0.78),
+      rgba(255, 255, 255, 0.86)
+    );
+}
+
+/* Supaya konten berada di atas background */
+body {
+  position: relative;
+  background: transparent;
+>>>>>>> Stashed changes
 }
