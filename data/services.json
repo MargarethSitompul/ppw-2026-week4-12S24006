@@ -1,0 +1,23 @@
+[
+  {
+    "id": "layanan-db",
+    "name": "Konsultasi Perancangan Basis Data",
+    "subtitle": "ERD, Kamus Data & Normalisasi",
+    "price": "Gratis / Diskusi Akademik",
+    "description": "Layanan konsultasi arsitektur database relasional, desain ERD/PDM, serta optimasi query T-SQL/MySQL."
+  },
+  {
+    "id": "layanan-web",
+    "name": "Konsultasi Pembuatan Web Accessible",
+    "subtitle": "HTML5, CSS3 & Responsive Design",
+    "price": "Gratis / Diskusi Akademik",
+    "description": "Pengembangan antarmuka web modern dengan standar aksesibilitas WCAG 2.2 AA dan performa tinggi."
+  },
+  {
+    "id": "layanan-ilmiah",
+    "name": "Diskusi Penulisan Karya Ilmiah & IoT",
+    "subtitle": "IEEE, Jurnal SINTA & IoT System",
+    "price": "Gratis / Diskusi Akademik",
+    "description": "Pendampingan penyusunan naskah konferensi/jurnal terakreditasi serta perancangan sistem berbasis sensor."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "proj-del-medicare",
+    "title": "DEL-MediCare",
+    "category": "Web System",
+    "description": "Sistem informasi web klinik kampus IT Del. Pendaftaran antrean daring terintegrasi dengan CIS kampus dan pencetakan surat sakit otomatis via Zimbra.",
+    "image": "asset/RSUD.png",
+    "tags": ["Web", "CIS IT Del", "Zimbra"]
+  },
+  {
+    "id": "proj-tobaverse",
+    "title": "TobaVerse",
+    "category": "AI Assistant",
+    "description": "Asisten percakapan AI untuk wisata Danau Toba memanfaatkan teknologi RAG dwibahasa untuk menyusun rencana perjalanan sesuai anggaran.",
+    "image": "asset/tobaverse.png",
+    "tags": ["RAG", "Dwibahasa", "Hackathon"]
+  },
+  {
+    "id": "proj-integrity-guard",
+    "title": "Integrity-Guard",
+    "category": "Cybersecurity",
+    "description": "Makalah IEEE yang mengusulkan ABCD Framework untuk mencegah kecurangan ujian berbasis komputer dengan pemantauan perilaku berbasis AI.",
+    "image": "asset/GUARD.jpeg",
+    "tags": ["Cybersecurity", "IEEE", "GEMASTIK XVII"]
+  },
+  {
+    "id": "proj-smartbiz-ai",
+    "title": "SmartBiz AI & System Analysis",
+    "category": "Artificial Intelligence",
+    "description": "Pengembangan sistem agen cerdas berbasis Python utilizing Uniform Cost Search (UCS) dan A* Search algorithm beserta perancangan spesifikasi PEAS.",
+    "image": "asset/RSUD.png",
+    "tags": ["Python", "UCS / A*", "AI Engine"]
+  }
+]
